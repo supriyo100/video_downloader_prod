@@ -44,6 +44,7 @@ python main.py -u "https://example.com/segment_{:03d}.ts" -o video.mp4  #for seg
 # Multiple URLs
 python main.py -u "https://server1.com/part_{}.ts" -o video.mp4
 
+## Eg: python main.py -u "https://tagmango.com/assets/tm-encode/***/***/og_{:03d}.ts" -o "********.mp4"/ 
 # From file
 python main.py -u urls.txt -o video.mp4
 
