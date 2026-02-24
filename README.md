@@ -39,7 +39,7 @@ chmod +x main.py
 
 ```bash
 # Basic usage
-python main.py -u "https://example.com/segment_{}.ts" -o video.mp4
+python main.py -u "https://example.com/segment_{:03d}.ts" -o video.mp4  #for segment_00i.ts 
 
 # Multiple URLs
 python main.py -u "https://server1.com/part_{}.ts" -o video.mp4
